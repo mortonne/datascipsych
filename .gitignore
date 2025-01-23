@@ -172,3 +172,6 @@ cython_debug/
 
 # Pyenv
 .python-version
+
+# Virtual environments
+venv*/
