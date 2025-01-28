@@ -1,0 +1,24 @@
+{
+    "phase": {
+        "Description": "Phase of the task",
+        "Levels": {
+            "study": "Studying a pair",
+            "test": "Testing memory for a pair"
+        }
+    },
+    "type": {
+        "Description": "Type of test pair",
+        "Levels": {
+            "intact": "A pair presented the same as during study",
+            "rearranged": "A pair that was not presented together during study"
+        }
+    },
+    "response": {
+        "Description": "Response to test",
+        "Levels": {
+            "0": "Response indicating a rearranged pair",
+            "1": "Response indicating an intact pair",
+            "-1": "No response"
+        }
+    }
+}
