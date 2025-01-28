@@ -175,3 +175,6 @@ cython_debug/
 
 # Virtual environments
 venv*/
+
+# macOS
+.DS_Store
