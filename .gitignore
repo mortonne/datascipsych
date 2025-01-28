@@ -178,3 +178,7 @@ venv*/
 
 # macOS
 .DS_Store
+
+# nbconvert output
+.pdf
+.slides.html
