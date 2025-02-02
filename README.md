@@ -1,6 +1,14 @@
 # datascipsych
 Data Science for Psychology course code
 
+## Getting the source code
+
+To use this project in Visual Studio Code, you must first "clone" it from GitHub. If you are reading this `README` file in Visual Studio Code, you are probably done with this step.
+
+To clone the code project from GitHub, open a new window in Visual Studio Code. In the Welcome tab, you should see an option to `Clone Git Repository...`. Click that, then enter `https://github.com/mortonne/datascipsych.git`. Select a destination folder, such as your desktop. Choose to open the repository either in the current window or in a new window. When asked whether you trust the authors of the files in this folder, select "Yes". After a moment, you should see the code project files in the Explorer.
+
+To get the latest code from GitHub, open the Command Palette and run `Git: Pull`, or click on the refresh icon in the lower right of the VSCode window.
+
 ## Installation
 
 To check whether you installed the project correctly, first open a terminal (`View > Terminal`). You should see `(.venv)` on the left side of the command prompt. This means that you have a local virtual environment set up for Python. Next, run `pip list`. If the package is installed, this should display a list of many Python packages. If not, then follow the instructions below to set up the project.
