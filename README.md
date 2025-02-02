@@ -3,9 +3,11 @@ Data Science for Psychology course code
 
 ## Installation
 
+To check whether you installed the project correctly, first open a terminal (`View > Terminal`). You should see `(.venv)` on the left side of the command prompt. This means that you have a local virtual environment set up for Python. Next, run `pip list`. If the package is installed, this should display a list of many Python packages. If not, then follow the instructions below to set up the project.
+
 ### Using Visual Studio Code commands (recommended)
 
-Go to the Command Palette and run `Python: Create Environment...`, then `Venv`. Select a Python 3.12.8 interpreter.  If you don't see one, install it from the Windows Store (Windows) or python.org (macOS and Linux), then try again. You may have to click the refresh button on the right of the Command Palette to make a newly installed interpreter show up.  Wait for VS Code to set up your environment and install the necessary packages.
+Go to the Command Palette and run `Python: Create Environment...`, then `Venv`. Select a Python 3.12.8 interpreter.  If you don't see one, install it from the Windows Store (Windows) or python.org (macOS and Linux), then try again. You may have to click the refresh button on the right of the Command Palette to make a newly installed interpreter show up. Wait for VS Code to set up your environment and install the necessary packages.
 
 ### Using the terminal
 
