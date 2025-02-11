@@ -7,7 +7,13 @@ To use this project in Visual Studio Code, you must first "clone" it from GitHub
 
 To clone the code project from GitHub, open a new window in Visual Studio Code. In the Welcome tab, you should see an option to `Clone Git Repository...`. Click that, then enter `https://github.com/mortonne/datascipsych.git`. Select a destination folder, such as your desktop. Choose to open the repository either in the current window or in a new window. When asked whether you trust the authors of the files in this folder, select "Yes". After a moment, you should see the code project files in the Explorer.
 
-To get the latest code from GitHub, open the Command Palette and run `Git: Pull`, or click on the refresh icon in the lower right of the VSCode window.
+### Updating source code
+
+If you already have a clone of the project on your computer, you may need to update it to get the latest versions of lectures and assignments. Follow these instructions to use VS Code to get the latest version of the project from GitHub.
+
+To get the latest code from GitHub, open the Command Palette and run `Git: Pull`, or click the Synchronize Changes button in the lower left of VS Code (click on the sync symbol, which is two arrows in a circle). If this doesn't work (say, if an error message pops up or if you do not see updated code), there may be local changes that are interfering with synchronization.
+
+You can often fix synchronization problems by discarding local changes. First, if there are any files that you have edited that you want to keep, open each one and use File > Save As to save each of them somewhere outside of the project directory. Then open the Source Control pane on the left and click "... > Changes > Discard All Changes" to discard all changes to your local copies of files in the project. Click the Synchronize Changes button again to get the latest version of all the files.
 
 ## Installation
 
