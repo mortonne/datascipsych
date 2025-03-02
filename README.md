@@ -62,3 +62,9 @@ You should see `Installed kernelspec datascipsych in ...` with a path to where t
 To run Jupyter Lab, open the terminal and run `jupyter lab`. This should open your default browser with a tab running Jupyter Lab. When you open a notebook, there should be a kernel name in the upper right, showing `datascipsych`. It should use the correct kernel automatically.
 
 If you need to change the kernel, click on the kernel name (this will be No Kernel if no kernel is currently selected) and select the kernel you want to use.
+
+## Final project
+
+To give a sense of what final projects should look like, there is a [sample project](https://github.com/mortonne/datascipsych-project) on GitHub.
+
+Undergraduate students have the option of completing the default project. See the [template project](https://github.com/mortonne/datascipsych-template) for details.
