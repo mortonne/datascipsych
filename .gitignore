@@ -182,3 +182,6 @@ venv*/
 # nbconvert output
 .pdf
 .slides.html
+
+# downloaded assignments
+assignments/*/submissions
