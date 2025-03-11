@@ -1,6 +1,8 @@
 # datascipsych
 Data Science for Psychology course code
 
+See the [course webpage](https://mortonne.github.io/datascipsych/intro.html) for searchable webpage versions of all of the lectures so far.
+
 ## Getting the source code
 
 To use this project in Visual Studio Code, you must first "clone" it from GitHub. If you are reading this `README` file in Visual Studio Code, you are probably done with this step.
