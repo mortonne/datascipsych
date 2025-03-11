@@ -185,3 +185,7 @@ venv*/
 
 # downloaded assignments
 assignments/*/submissions
+
+# book components
+book/_build
+book/assignments
