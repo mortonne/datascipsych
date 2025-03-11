@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: assignments/assignment3/python_variables
+- file: assignments/assignment4/python_functions
+- file: assignments/assignment4/python_flow
+- file: assignments/assignment5/python_science
+- file: assignments/assignment6/descriptive_stats
+- file: assignments/assignment7/dataframes
