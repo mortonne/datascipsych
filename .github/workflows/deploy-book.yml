@@ -40,6 +40,9 @@ jobs:
     - name: Build the book
       run: |
         cp -r assignments book/assignments
+        python -m venv .venv
+        pip install .
+        python -m ipykernel install --user --name datascipsych
         jupyter-book build book
 
     # Upload the book's HTML as an artifact
