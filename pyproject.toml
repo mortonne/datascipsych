@@ -1,6 +1,10 @@
 [project]
 name = "datascipsych"
 version = "0.1.0"
+description = "Code for the Data Science for Psychology course."
+authors = [
+    {name = "Neal W Morton", email = "mortonne@gmail.com"}
+]
 dependencies = [
     "numpy",
     "scipy",
