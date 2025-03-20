@@ -14,6 +14,7 @@ parts:
     - file: assignments/midterm_review/midterm_review
     - file: assignments/assignment7/dataframes
     - file: assignments/assignment9/data_cleaning
+    - file: assignments/assignment10/data_visualization
   - caption: Code development
     chapters:
     - file: assignments/assignment8/python_packages
