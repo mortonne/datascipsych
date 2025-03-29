@@ -13,6 +13,7 @@ dependencies = [
     "pyarrow",
     "seaborn",
     "pingouin",
+    "pillow",
     "jupyterlab",
     "jupyterlab_rise"
 ]
