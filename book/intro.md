@@ -4,7 +4,7 @@ This is the website and open textbook for Data Science for Psychology, a course 
 
 The Data Science for Psychology textbook was written by Neal W Morton, PhD in 2025.
 
-## Lectures
+## Chapters
 
 ```{tableofcontents}
 ```
