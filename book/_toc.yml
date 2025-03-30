@@ -15,6 +15,7 @@ parts:
     - file: assignments/assignment7/dataframes
     - file: assignments/assignment9/data_cleaning
     - file: assignments/assignment10/data_visualization
+    - file: assignments/assignment11/inferential_statistics
     - file: assignments/assignment12/reporting
   - caption: Code development
     chapters:
