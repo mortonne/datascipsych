@@ -14,9 +14,14 @@ dependencies = [
     "seaborn",
     "pingouin",
     "pillow",
+    "click",
     "jupyterlab",
     "jupyterlab_rise"
 ]
+
+[project.gui-scripts]
+hello = "datascipsych:cli.hello"
+hello-click = "datascipsych:cli.hello_click"
 
 [build-system]
 requires = ["setuptools >= 61.0"]
