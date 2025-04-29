@@ -21,3 +21,4 @@ parts:
     chapters:
     - file: assignments/assignment8/python_packages
     - file: assignments/assignment13/coding_best_practices
+    - file: assignments/assignment14/project_iteration
