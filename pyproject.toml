@@ -19,7 +19,7 @@ dependencies = [
     "jupyterlab_rise"
 ]
 
-[project.gui-scripts]
+[project.scripts]
 hello = "datascipsych:cli.hello"
 hello-click = "datascipsych:cli.hello_click"
 
