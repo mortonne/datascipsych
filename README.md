@@ -1,7 +1,12 @@
 # datascipsych
 Data Science for Psychology course code
 
-See the [course webpage](https://mortonne.github.io/datascipsych/intro.html) for searchable webpage versions of all of the lectures so far.
+[![Course Textbook](https://jupyterbook.org/badge.svg)](https://mortonne.github.io/datascipsych/intro.html)
+
+## Resources
+
+* [Course textbook](https://mortonne.github.io/datascipsych/intro.html): online book with searchable webpage versions of the course lectures.
+* [Sample project](https://github.com/mortonne/datascipsych-project): example project created using the principles taught in the course.
 
 ## Getting the source code
 
