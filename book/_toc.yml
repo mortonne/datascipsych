@@ -1,0 +1,24 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Data science programming
+    chapters:
+    - file: assignments/assignment3/python_variables
+    - file: assignments/assignment4/python_functions
+    - file: assignments/assignment4/python_flow
+    - file: assignments/assignment5/python_science
+    - file: assignments/assignment6/descriptive_stats
+    - file: assignments/midterm_review/midterm_review
+    - file: assignments/assignment7/dataframes
+    - file: assignments/assignment9/data_cleaning
+    - file: assignments/assignment10/data_visualization
+    - file: assignments/assignment11/inferential_statistics
+    - file: assignments/assignment12/reporting
+  - caption: Code development
+    chapters:
+    - file: assignments/assignment8/python_packages
+    - file: assignments/assignment13/coding_best_practices
+    - file: assignments/assignment14/project_iteration

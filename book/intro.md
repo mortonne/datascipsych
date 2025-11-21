@@ -7,7 +7,6 @@ The Data Science for Psychology textbook was written by Neal W Morton, PhD in 20
 ## Chapters
 
 ```{tableofcontents}
-:depth: 1
 ```
 
 ## Links
