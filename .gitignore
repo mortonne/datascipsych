@@ -189,3 +189,6 @@ assignments/*/submissions
 # book components
 book/_build
 book/assignments
+
+# MyST build outputs
+_build

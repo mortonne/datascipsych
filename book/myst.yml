@@ -1,0 +1,34 @@
+version: 1
+project:
+  title: Data Science for Psychology
+  authors:
+    - name: Neal W Morton
+  github: mortonne/datascipsych
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro.md
+    - file: assignments/assignment3/python_variables.ipynb
+    - file: assignments/assignment4/python_functions.ipynb
+    - file: assignments/assignment4/python_flow.ipynb
+    - file: assignments/assignment5/python_science.ipynb
+    - file: assignments/assignment6/descriptive_stats.ipynb
+    - file: assignments/midterm_review/midterm_review.ipynb
+    - file: assignments/assignment7/dataframes.ipynb
+    - file: assignments/assignment8/python_packages.ipynb
+    - file: assignments/assignment9/data_cleaning.ipynb
+    - file: assignments/assignment10/data_visualization.ipynb
+    - file: assignments/assignment11/inferential_statistics.ipynb
+    - file: assignments/assignment12/reporting.ipynb
+    - file: assignments/assignment13/coding_best_practices.ipynb
+    - file: assignments/assignment14/project_iteration.ipynb
+site:
+  options:
+    logo: logo.png
+    folders: true
+  template: book-theme
+  

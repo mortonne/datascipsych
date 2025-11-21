@@ -27,3 +27,8 @@ hello-click = "datascipsych:cli.hello_click"
 [build-system]
 requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "jupyter-book>=2.0.2",
+]
