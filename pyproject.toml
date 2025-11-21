@@ -17,7 +17,7 @@ dependencies = [
     "pillow",
     "click",
     "jupyterlab",
-    "jupyterlab_rise"
+    "jupyterlab-rise",
 ]
 
 [project.scripts]
