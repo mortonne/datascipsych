@@ -170,9 +170,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Pyenv
-.python-version
-
 # Virtual environments
 venv*/
 
