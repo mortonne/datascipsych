@@ -5,6 +5,7 @@ description = "Code for the Data Science for Psychology course."
 authors = [
     {name = "Neal W Morton", email = "mortonne@gmail.com"}
 ]
+requires-python = ">3.10"
 dependencies = [
     "numpy",
     "scipy",
