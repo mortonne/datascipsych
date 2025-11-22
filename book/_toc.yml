@@ -7,6 +7,8 @@ parts:
   - caption: Data science programming
     chapters:
     - file: assignments/assignment3/python_variables
+      sections:
+      - file: assignments/assignment3/review
     - file: assignments/assignment4/python_functions
     - file: assignments/assignment4/python_flow
     - file: assignments/assignment5/python_science
