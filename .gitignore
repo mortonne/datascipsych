@@ -189,3 +189,6 @@ book/assignments
 
 # MyST build outputs
 _build
+
+# virtual notebook documents
+.virtual_documents
