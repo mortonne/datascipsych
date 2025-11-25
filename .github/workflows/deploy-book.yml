@@ -41,7 +41,7 @@ jobs:
 
     - name: Build the book
       run: |
-        cp -r assignments book/assignments
+        cp -r chapters book/chapters
         uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=datascipsych
         uv run jupyter-book build book
 
