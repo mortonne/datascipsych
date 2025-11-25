@@ -31,7 +31,9 @@ jobs:
       uses: astral-sh/setup-uv@v6
 
     - name: Install the project
-      run: uv sync --locked --all-extras --dev
+      run: |
+        uv sync --locked --all-extras --dev
+        uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=datascipsych
 
     - name: cache executed notebooks
       uses: actions/cache@v4
@@ -42,7 +44,6 @@ jobs:
     - name: Build the book
       run: |
         cp -r chapters book/chapters
-        uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=datascipsych
         uv run jupyter-book build book
 
     - name: Upload artifact
