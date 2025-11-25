@@ -38,7 +38,7 @@ jobs:
     - name: cache executed notebooks
       uses: actions/cache@v4
       with:
-        path: book/_build/jupyter_execute
+        path: book/_build/.jupyter_cache
         key: jupyter-book-cache-${{ hashFiles('uv.lock') }}
 
     - name: Build the book
