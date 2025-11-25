@@ -181,11 +181,11 @@ venv*/
 .slides.html
 
 # downloaded assignments
-assignments/*/submissions
+chapters/*/submissions
 
 # book components
 book/_build
-book/assignments
+book/chapters
 
 # MyST build outputs
 _build
