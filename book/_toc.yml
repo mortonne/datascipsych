@@ -6,21 +6,21 @@ root: intro
 parts:
   - caption: Data science programming
     chapters:
-    - file: assignments/assignment3/python_variables
+    - file: chapters/chapter1/python_variables
       sections:
-      - file: assignments/assignment3/review
-    - file: assignments/assignment4/python_functions
-    - file: assignments/assignment4/python_flow
-    - file: assignments/assignment5/python_science
-    - file: assignments/assignment6/descriptive_stats
-    - file: assignments/midterm_review/midterm_review
-    - file: assignments/assignment7/dataframes
-    - file: assignments/assignment9/data_cleaning
-    - file: assignments/assignment10/data_visualization
-    - file: assignments/assignment11/inferential_statistics
-    - file: assignments/assignment12/reporting
+      - file: chapters/chapter1/review
+    - file: chapters/chapter2/python_functions
+    - file: chapters/chapter3/python_flow
+    - file: chapters/chapter4/python_science
+    - file: chapters/chapter5/descriptive_stats
+    - file: chapters/chapter6/midterm_review
+    - file: chapters/chapter7/dataframes
+    - file: chapters/chapter8/data_cleaning
+    - file: chapters/chapter9/data_visualization
+    - file: chapters/chapter10/inferential_statistics
+    - file: chapters/chapter11/reporting
   - caption: Code development
     chapters:
-    - file: assignments/assignment8/python_packages
-    - file: assignments/assignment13/coding_best_practices
-    - file: assignments/assignment14/project_iteration
+    - file: chapters/chapter12/python_packages
+    - file: chapters/chapter13/coding_best_practices
+    - file: chapters/chapter14/project_iteration
