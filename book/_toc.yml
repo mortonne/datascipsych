@@ -10,6 +10,8 @@ parts:
       sections:
       - file: chapters/chapter1/review
     - file: chapters/chapter2/python_functions
+      sections:
+      - file: chapters/chapter2/review
     - file: chapters/chapter3/python_flow
     - file: chapters/chapter4/python_science
     - file: chapters/chapter5/descriptive_stats
