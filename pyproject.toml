@@ -31,4 +31,5 @@ build-backend = "setuptools.build_meta"
 [dependency-groups]
 dev = [
     "jupyter-book<2",
+    "nb-clean>=4.0.1",
 ]
