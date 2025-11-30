@@ -27,7 +27,7 @@ You can often fix synchronization problems by discarding local changes. First, i
 
 To check whether you installed the project correctly, first open a terminal (`View > Terminal`). You should see `(datascipsych)` on the left side of the command prompt. This means that you have a local virtual environment set up for Python. Next, run `uv pip list`. If the package is installed, this should display a list of many Python packages. If not, then follow the instructions below to set up the project.
 
-If you haven't already, install [uv](https://docs.astral.sh/uv/getting-started/installation/). After installing uv, in the terminal, type `uv sync`. This should install Python, create a virtual environment, and install a number of Python packages.
+If you haven't already, install [uv](https://docs.astral.sh/uv/getting-started/installation/). After installing uv, in the terminal, type `uv sync`. This should install Python, create a virtual environment, and install a number of Python packages. Finally, open the Command Palette and run `Python: Select Interpreter` and choose the new virtual environment. It should be named `Python 3.13.6 (datascipsych)`.
 
 ## Running Jupyter Lab
 
