@@ -13,6 +13,8 @@ parts:
       sections:
       - file: chapters/chapter2/review
     - file: chapters/chapter3/python_flow
+      sections:
+      - file: chapters/chapter3/review
     - file: chapters/chapter4/python_science
     - file: chapters/chapter5/descriptive_stats
     - file: chapters/chapter6/midterm_review
