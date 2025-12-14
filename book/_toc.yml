@@ -16,6 +16,8 @@ parts:
       sections:
       - file: chapters/chapter3/review
     - file: chapters/chapter4/python_science
+      sections:
+      - file: chapters/chapter4/review
     - file: chapters/chapter5/descriptive_stats
     - file: chapters/chapter6/midterm_review
     - file: chapters/chapter7/dataframes
