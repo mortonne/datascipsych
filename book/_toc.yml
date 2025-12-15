@@ -19,6 +19,8 @@ parts:
       sections:
       - file: chapters/chapter4/review
     - file: chapters/chapter5/descriptive_stats
+      sections:
+      - file: chapters/chapter5/review
     - file: chapters/chapter6/midterm_review
     - file: chapters/chapter7/dataframes
     - file: chapters/chapter8/data_cleaning
