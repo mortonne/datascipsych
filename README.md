@@ -9,6 +9,12 @@ Code repository for the Data Science for Psychology course at the University of 
 * [Course textbook](https://mortonne.github.io/datascipsych/intro.html): online book with searchable webpage versions of the course lectures.
 * [Sample project](https://github.com/mortonne/datascipsych-project): example project created using the principles taught in the course.
 
+## Software
+
+The course uses [Visual Studio Code](https://code.visualstudio.com/) for code editing and running, [Git](https://git-scm.com/) for version tracking, and [uv](https://docs.astral.sh/uv/) for managing Python environments.
+
+In Visual Studio Code, you will need the [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) plugins.
+
 ## Getting the source code
 
 To use this project in Visual Studio Code, you must first *clone* it from GitHub. If you are reading this `README` file in Visual Studio Code, you are probably done with this step.
