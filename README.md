@@ -50,7 +50,7 @@ When running code in a notebook, if you see an error saying "notebook controller
 Before you can run notebooks in your browser, you will have to install your Python virtual environment as a Jupyter kernel. Open a terminal in VS Code (`View > Terminal`), then run:
 
 ```bash
-uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=datascipsych
+uv run ipython kernel install --user --env VIRTUAL_ENV "$(pwd)/.venv" --name=datascipsych
 ```
 
 You should see `Installed kernelspec datascipsych in ...` with a path to where the kernel is installed on your computer.
