@@ -39,7 +39,11 @@ If you haven't already, install [uv](https://docs.astral.sh/uv/getting-started/i
 
 ### In Visual Studio Code (recommended)
 
-Open a Jupyter file (these have a file extension of `.ipynb`) by clicking on it in the Explorer pane.  For example, you can open `chapters/chapter1/python_variables.ipynb`. You should see a button on the upper right that says `Select Kernel`. Click it to select a kernel to run the notebook. Select `Python Environments`, then select the virtual environment you set up previously. You should now see `datascipsych (Python 3.13.6)` in the upper right of the notebook.
+Open a Jupyter file (these have a file extension of `.ipynb`) by clicking on it in the Explorer pane.  For example, you can open `chapters/chapter1/python_variables.ipynb`. You should see a button on the upper right that says `Select Kernel`. Click it to select a kernel to run the notebook. Select `Python Environments`, then select the virtual environment you set up previously. You should now see `datascipsych (Python 3.13.6)` in the upper right of the notebook. Click the `Run All` button to run the notebook code.
+
+#### Troubleshooting
+
+When running code in a notebook, if you see an error saying "notebook controller is disposed", try clicking the Restart button at the top of the notebook tab to restart the notebook kernel, then try re-running the code. If you still see the error, close Visual Studio Code (`File > Exit`) and reopen it.
 
 ### In a browser
 
