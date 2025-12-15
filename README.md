@@ -1,6 +1,6 @@
 # datascipsych
 
-[![Course Textbook](https://jupyterbook.org/badge.svg)](https://mortonne.github.io/datascipsych/intro.html)
+[![Course Textbook](https://github.com/mortonne/datascipsych/blob/main/book/logo.png)](https://mortonne.github.io/datascipsych/intro.html)
 
 Code repository for the Data Science for Psychology course at the University of Wisconsin-Milwaukee.
 
