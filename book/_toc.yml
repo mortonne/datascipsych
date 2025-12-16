@@ -25,6 +25,7 @@ parts:
     - file: chapters/chapter7/dataframes
       sections:
       - file: chapters/chapter7/review
+      - file: chapters/chapter7/review_r
     - file: chapters/chapter8/data_cleaning
     - file: chapters/chapter9/data_visualization
     - file: chapters/chapter10/inferential_statistics
