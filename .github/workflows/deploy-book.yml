@@ -30,6 +30,11 @@ jobs:
     - name: Install uv
       uses: astral-sh/setup-uv@v6
 
+    - name: Install the project
+      run: |
+        uv sync --locked --all-extras --dev
+        uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=datascipsych
+
     - name: Install R
       uses: r-lib/actions/setup-r@v2
       with:
@@ -42,11 +47,6 @@ jobs:
 
     - name: Install R kernel
       run: Rscript -e 'IRkernel::installspec(name = "r-datascipsych")'
-
-    - name: Install the project
-      run: |
-        uv sync --locked --all-extras --dev
-        uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=datascipsych
 
     - name: cache executed notebooks
       uses: actions/cache@v4
