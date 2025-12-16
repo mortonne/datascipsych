@@ -48,7 +48,7 @@ jobs:
     - name: Install R kernel
       run: |
         pip install jupyter
-        Rscript -e 'IRkernel::installspec(name = "r-datascipsych")'
+        Rscript -e 'IRkernel::installspec(name = "ir")'
 
     - name: Cache executed notebooks
       uses: actions/cache@v4
