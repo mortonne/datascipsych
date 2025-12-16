@@ -46,9 +46,11 @@ jobs:
         extra-packages: IRkernel
 
     - name: Install R kernel
-      run: Rscript -e 'IRkernel::installspec(name = "r-datascipsych")'
+      run: |
+        pip install jupyter
+        Rscript -e 'IRkernel::installspec(name = "r-datascipsych")'
 
-    - name: cache executed notebooks
+    - name: Cache executed notebooks
       uses: actions/cache@v4
       with:
         path: book/_build/.jupyter_cache
