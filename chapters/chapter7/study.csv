@@ -1,0 +1,9 @@
+participant_id,trial_type,item_type,response,response_time
+01,target,1,1,1.5
+01,lure,2,0,2.3
+01,target,2,0,2.2
+01,lure,1,1,1.8
+02,lure,2,0,2.2
+02,target,1,1,1.2
+02,lure,1,1,2.1
+02,target,2,1,1.6
