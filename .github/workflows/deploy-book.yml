@@ -43,7 +43,9 @@ jobs:
     - name: Install R dependencies
       uses: r-lib/actions/setup-r-dependencies@v2
       with:
-        extra-packages: IRkernel
+        extra-packages: |
+          IRkernel
+          tidyverse
 
     - name: Install R kernel
       run: |
