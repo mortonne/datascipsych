@@ -1,5 +1,5 @@
-participant_id,condition,test1,test2
-01,1,6,9
-01,2,4,8
-02,1,9,10
-02,2,7,9
+participant_id,group,condition,test1,test2,test3
+01,exp,1,6,9,-999
+01,exp,2,4,8,9
+02,con,1,9,10,8
+02,con,2,7,9,7
