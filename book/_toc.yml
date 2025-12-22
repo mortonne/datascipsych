@@ -33,6 +33,8 @@ parts:
       - file: chapters/chapter8/review_pandas
       - file: chapters/chapter8/review_r
     - file: chapters/chapter9/data_visualization
+      sections:
+      - file: chapters/chapter9/review
     - file: chapters/chapter10/inferential_statistics
     - file: chapters/chapter11/reporting
   - caption: Code development
