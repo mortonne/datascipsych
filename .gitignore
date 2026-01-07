@@ -192,3 +192,6 @@ _build
 
 # virtual notebook documents
 .virtual_documents
+
+# VS Code
+.vscode/
