@@ -36,6 +36,8 @@ parts:
       sections:
       - file: chapters/chapter9/review
     - file: chapters/chapter10/inferential_statistics
+      sections:
+      - file: chapters/chapter10/review
     - file: chapters/chapter11/reporting
   - caption: Code development
     chapters:
