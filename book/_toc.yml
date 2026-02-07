@@ -5,7 +5,7 @@ format: jb-book
 root: intro
 parts:
   - caption: Data science programming
-    numbered: true
+    numbered: 2
     chapters:
     - file: chapters/chapter1/variables
       sections:
@@ -41,7 +41,7 @@ parts:
       - file: chapters/chapter10/review
     - file: chapters/chapter11/reporting
   - caption: Code development
-    numbered: true
+    numbered: 2
     chapters:
     - file: chapters/chapter12/software_packages
     - file: chapters/chapter13/coding_best_practices
