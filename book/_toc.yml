@@ -23,6 +23,8 @@ parts:
       sections:
       - file: chapters/chapter5/review
     - file: chapters/chapter6/data_analysis
+      sections:
+      - file: chapters/chapter6/review
     - file: chapters/chapter7/data_frames
       sections:
       - file: chapters/chapter7/review
