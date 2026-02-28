@@ -22,7 +22,7 @@ parts:
     - file: chapters/chapter5/descriptive_statistics
       sections:
       - file: chapters/chapter5/review
-    - file: chapters/chapter6/midterm_review
+    - file: chapters/chapter6/data_analysis
     - file: chapters/chapter7/data_frames
       sections:
       - file: chapters/chapter7/review
