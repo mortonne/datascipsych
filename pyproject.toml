@@ -13,7 +13,7 @@ dependencies = [
     "polars",
     "pyarrow",
     "seaborn",
-    "pingouin",
+    "pingouin>=0.6.1",
     "pillow",
     "click",
     "jupyterlab",
