@@ -63,4 +63,4 @@ If you need to change the kernel, click on the kernel name (this will be No Kern
 
 To give a sense of what final projects should look like, there is a [sample project](https://github.com/mortonne/datascipsych-project) on GitHub.
 
-Undergraduate students will complete the default project. See the [template project](https://github.com/mortonne/datascipsych-template) for details.
+Undergraduate students will complete the default project. See the `project` directory for details.

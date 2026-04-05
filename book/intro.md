@@ -12,4 +12,3 @@ The Data Science for Psychology textbook was written by Neal W Morton, PhD in 20
 ## Links
 * [Course code](https://github.com/mortonne/datascipsych)
 * [Sample project](https://github.com/mortonne/datascipsych-project)
-* [Template project](https://github.com/mortonne/datascipsych-template)
