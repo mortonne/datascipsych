@@ -46,5 +46,7 @@ parts:
     numbered: 2
     chapters:
     - file: chapters/chapter12/software_packages
+      sections:
+      - file: chapters/chapter12/review
     - file: chapters/chapter13/coding_best_practices
     - file: chapters/chapter14/project_iteration
