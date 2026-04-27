@@ -42,6 +42,8 @@ parts:
       sections:
       - file: chapters/chapter10/review
     - file: chapters/chapter11/reporting
+      section:
+      - file: chapters/chapter11/review
   - caption: Code development
     numbered: 2
     chapters:
